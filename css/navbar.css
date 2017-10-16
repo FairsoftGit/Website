@@ -1,0 +1,68 @@
+.jumbotron {
+    background-color: black;
+}
+.jumbotron .container{
+    display: inline-block;
+}
+.fairsoftLogo {
+}
+.navbar-default {
+    background-color: black;
+}
+.navbar-default .navbar-nav > li > a {
+    color: white;        
+}
+.navbar-default .navbar-nav > li > a:hover {
+    background: -webkit-linear-gradient(#825302, #FFFFFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.navContainer {
+    float: left;
+}
+.navbar-fixed-top {
+    top: 170px;
+}
+
+.dropdown-menu > li > a{
+    color:  white;
+}
+.dropdown-menu > li > a:hover {
+    background: -webkit-linear-gradient(#825302, #FFFFFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.nav > li.dropdown.open {
+    position: static;
+}
+
+.nav > li.dropdown.open .dropdown-menu {
+        background-color: black;
+        display: table;
+        border-radius: 0px;
+        width: 100%;
+        text-align: center;
+        left: 0;
+        right: 0;
+}
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover {
+    color: white;
+    background-color: transparent;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+    color: white;
+    background-color: transparent;
+}
+.dropdown-menu > li {
+    display: table-cell;
+    height: 50px;
+    line-height: 50px;
+    vertical-align: middle;
+}
+
+@media screen and (max-width: 767px) {
+    .dropdown-menu > li {
+        display: block;
+    }
+}
