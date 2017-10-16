@@ -1,0 +1,24 @@
+/* CSS Document */
+body {
+	background: black;
+	background: -webkit-radial-gradient(circle, #515151, #000);
+	background: -o-radial-gradient(circle, #515151, #000);
+	background: -moz-radial-gradient(circle, #515151, #000);
+	background: radial-gradient(circle, #515151, #000);
+	color: white;
+}
+
+header{
+	border: 1px solid red;
+	width: 100%;
+	height: auto;
+}
+
+header{
+	border: 1px solid red;
+	width: 100%;
+}
+
+footer{
+	border: 1px solid red;
+}
