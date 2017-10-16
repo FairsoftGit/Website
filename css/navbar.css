@@ -1,0 +1,46 @@
+.jumbotron {
+    background-color: black;
+}
+
+
+.navbar-default {
+    background-color: black;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: white;        
+}
+
+.navbar-fixed-top {
+    top: 150px;
+}
+
+.dropdown-menu > li > a {
+    color:  white;
+}
+.nav > li.dropdown.open {
+    position: static;
+}
+
+    .nav > li.dropdown.open .dropdown-menu {
+        background-color: black;
+        display: table;
+        border-radius: 0px;
+        width: 100%;
+        text-align: center;
+        left: 0;
+        right: 0;
+    }
+
+.dropdown-menu > li {
+    display: table-cell;
+    height: 50px;
+    line-height: 50px;
+    vertical-align: middle;
+}
+
+@media screen and (max-width: 767px) {
+    .dropdown-menu > li {
+        display: block;
+    }
+}
