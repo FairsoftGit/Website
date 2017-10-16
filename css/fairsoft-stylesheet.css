@@ -5,6 +5,7 @@ body {
 	background: -o-radial-gradient(circle, #515151, #000);
 	background: -moz-radial-gradient(circle, #515151, #000);
 	background: radial-gradient(circle, #515151, #000);
+	color: white;
 }
 
 header{
