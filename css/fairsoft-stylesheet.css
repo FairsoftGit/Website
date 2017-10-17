@@ -76,9 +76,9 @@ header > img#logo {
 		display:block !important;
 	}
 }
-
+/** OPMAAK SUBMENU **/
 /** Change appearance of submenu on small devices **/
-@media(min-width: 996px) {
+
 	/**DROPDOWN**/
 	.nav > li.dropdown.open {
     position: static;
@@ -107,8 +107,6 @@ header > img#logo {
     text-align: center;
     margin-top: 2px; /*Necessary to line up with the border of the header*/
 	}
-}
-
 #myNavbar{
 	font-family: 'secrets_stencilregular';
 }
