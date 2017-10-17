@@ -1,0 +1,60 @@
+/* CSS Document */
+body {
+	background: black;
+	background: -webkit-radial-gradient(circle, #515151, #000);
+	background: -o-radial-gradient(circle, #515151, #000);
+	background: -moz-radial-gradient(circle, #515151, #000);
+	background: radial-gradient(circle, #515151, #000);
+}
+
+
+/** OPMAAK HEADER **/
+#header {
+	border-bottom: 1px solid #F6A017;
+	padding: 1px 0;
+	text-align: center;
+}
+
+header > img#logo {
+	min-width: 300px;
+	width: 50%;
+	margin: 30px 10px;
+}
+
+/** OPMAAK MENU **/
+.navbar{
+	margin-bottom: 0px;
+}
+
+.navbar-brand{ 
+	padding: 7px 15px;
+}
+
+#navBarImg{
+	height: 36px;	
+}
+
+#myNavbar{
+	font-family: 'secrets_stencilregular';
+}
+
+/** OPMAAK MAIN GEDEELTE **/
+#main{
+	background-color: #E3DCD2;
+	border: 1px solid #000;
+	border-radius: 4px;
+	min-height: 100px;
+}
+
+/** OPMAAK FOOTER **/
+#footer{
+	border-top: 1px solid #F6A017;
+	padding: 1px 0;
+}
+
+#footer > footer{
+	background-color: #222222;
+	border: 1px solid #080808;
+	border-radius: 4px;
+	min-height: 50px;
+}

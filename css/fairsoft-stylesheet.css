@@ -5,20 +5,23 @@ body {
 	background: -o-radial-gradient(circle, #515151, #000);
 	background: -moz-radial-gradient(circle, #515151, #000);
 	background: radial-gradient(circle, #515151, #000);
-	color: white;
 }
 
-header{
-	border: 1px solid red;
-	width: 100%;
-	height: auto;
+#header {
+	border-bottom: 1px solid #F6A017;
+	text-align: center;
 }
 
-header{
-	border: 1px solid red;
-	width: 100%;
+header > img#logo {
+	min-width: 300px;
+	width: 50%;
+	margin: 30px 10px;
 }
 
-footer{
-	border: 1px solid red;
+.navbar{
+	margin-bottom: 0px;
+}
+
+#main{
+	background-color: #fff;
 }
