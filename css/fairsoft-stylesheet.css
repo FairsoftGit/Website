@@ -28,10 +28,12 @@ header > img#logo {
 
 .navbar-brand{ 
 	padding: 7px 15px;
+	max-width: 70%;
 }
 
 #navBarImg{
 	height: 36px;	
+	max-width: 100%;
 }
 
 /**DROPDOWN**/
@@ -71,6 +73,9 @@ header > img#logo {
     .navbar-header {
         float: none;
     }
+		#logo{
+			display: none;
+		}
     .navbar-left,.navbar-right {
         float: none !important;
     }
