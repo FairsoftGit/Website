@@ -75,7 +75,10 @@ header > img#logo {
 	.collapse.in{
 		display:block !important;
 	}
+}
 
+/** Change appearance of submenu on small devices **/
+@media(min-width: 996px) {
 	/**DROPDOWN**/
 	.nav > li.dropdown.open {
     position: static;
