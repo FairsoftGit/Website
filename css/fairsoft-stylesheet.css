@@ -101,11 +101,8 @@ header > img#logo {
 	.nav > li.dropdown.open .dropdown-menu {
     background-color: #222222;
     display: table;
-    border-top: 1px solid #F6A017;
-    border-left: 0;
-    border-right: 0;
-    border-bottom: 0;
-    border-radius: 0px;
+    border: 1px solid #F6A017;
+    border-radius: 0 0 4px 4px;
     width: 100%;
     text-align: center;
     margin-top: 2px; /*Necessary to line up with the border of the header*/
