@@ -7,31 +7,12 @@ body {
 	background: radial-gradient(circle, #515151, #000);
 }
 
-<<<<<<< HEAD
-#header {
-	border-bottom: 1px solid #F6A017;
-	text-align: center;
-}
-
-header > img#logo {
-	min-width: 300px;
-	width: 50%;
-	margin: 30px 10px;
-}
-
-.navbar{
-	margin-bottom: 0px;
-}
-
-#main{
-	background-color: #fff;
-=======
 
 /** OPMAAK HEADER **/
 #header {
 	border-bottom: 1px solid #F6A017;
+	padding: 1px 0;
 	text-align: center;
-    padding: 1px 0;
 }
 
 header > img#logo {
@@ -51,12 +32,12 @@ header > img#logo {
 }
 
 #navBarImg{
-	height: 36px;	
+	height: 36px;
 	max-width: 100%;
 }
 
 /** Change breakingpoint of navbar **/
-@media (max-width: 996px) {
+@media (max-width: 991px) {
 	.navbar-header {
 		float: none;
 	}
@@ -96,38 +77,6 @@ header > img#logo {
 	}
 }
 
-/** Change appearance of submenu on small devices **/
-@media(min-width: 996px) {
-	/**DROPDOWN**/
-	.nav > li.dropdown.open {
-    position: static;
-	}
-
-	.dropdown-menu > li {
-    display: table-cell;
-    height: 50px;
-    line-height: 50px;
-    vertical-align: middle;
-	}
-	.dropdown-menu > li > a {
-		color: #9d9d9d;/*Same color as navbar inverse style*/
-	}
-	.dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover {
-		background-color: #222222;
-		color: white;
-	}
-
-	.nav > li.dropdown.open .dropdown-menu {
-    background-color: #222222;
-    display: table;
-    border: 1px solid #F6A017;
-    border-radius: 0 0 4px 4px;
-    width: 100%;
-    text-align: center;
-    margin-top: 2px; /*Necessary to line up with the border of the header*/
-	}
-}
-
 #myNavbar{
 	font-family: 'secrets_stencilregular';
 }
@@ -156,5 +105,4 @@ main{
 	border: 1px solid #080808;
 	border-radius: 4px;
 	min-height: 50px;
->>>>>>> master
 }
