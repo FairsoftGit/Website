@@ -5,6 +5,7 @@ body {
 	background: -o-radial-gradient(circle, #515151, #000);
 	background: -moz-radial-gradient(circle, #515151, #000);
 	background: radial-gradient(circle, #515151, #000);
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
 }
 
 
@@ -22,13 +23,26 @@ header > img#logo {
 }
 
 /** OPMAAK MENU **/
+
+#myNavbar{
+	font-size: 16px;
+}
+
 .navbar{
 	margin-bottom: 0px;
+}
+.navbar-inverse .navbar-nav>li>a {
+    /*color: #fff;*/
+}
+
+.navbar-inverse .navbar-nav li > a.selected{
+	color:#F6A017;
 }
 
 .navbar-brand{ 
 	padding: 7px 15px;
 	max-width: 70%;
+	display: none;
 }
 
 #navBarImg{
@@ -37,12 +51,15 @@ header > img#logo {
 }
 
 /** Change breakingpoint of navbar **/
-@media (max-width: 996px) {
+@media (max-width: 835px) {
 	.navbar-header {
 		float: none;
 	}
 	#logo{
 		display: none;
+	}
+	.navbar-brand{
+		display: block;
 	}
 	.navbar-left,.navbar-right {
 		float: none !important;
@@ -107,9 +124,6 @@ header > img#logo {
     text-align: center;
     margin-top: 2px; /*Necessary to line up with the border of the header*/
 	}
-#myNavbar{
-	font-family: 'secrets_stencilregular';
-}
 
 /** OPMAAK MAIN GEDEELTE **/
 main{
