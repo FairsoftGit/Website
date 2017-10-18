@@ -1,17 +1,17 @@
 
 // Insert header.html into index.html
 function loadHeader(){
-	$('#header').load('header.html');
+	$('#header').load('pages/header.html');
 }
 
 // Insert footer.html into index.html
 function loadFooter(){
-	$('#footer').load('footer.html');
+	$('#footer').load('pages/footer.html');
 }
 
 // Load default homepage when opening index.html
 function defaultContent(){
-	$('#main').load('aboutUs.html');
+	$('#main').load('pages/content/aboutUs.html');
 }
 
 // Insert desired html file (based on clicked menu item) in <main> tag of index.html
@@ -26,7 +26,8 @@ $(document).ready(function(){
 	$('.navbar-nav a').click(function(){
 		var linkId = $(this).attr('id');
 		var fileName = linkId + '.html';
+		var path = "pages/content/"
 		console.log(linkId + ': ' + fileName);
-		setPage(fileName);
+		setPage(path + fileName);
 	});
 });
