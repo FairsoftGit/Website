@@ -29,5 +29,10 @@ $(document).ready(function(){
 		var path = "pages/content/"
 		console.log(linkId + ': ' + fileName);
 		setPage(path + fileName);
+		
+		//Add pagename to titel
+		document.title = '';
+		document.title = 'Fairsoft - ' + $(this).text(); 
 	});
+
 });
