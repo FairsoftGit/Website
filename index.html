@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="js/includeScripts.js"></script>
+    <script src="js/includeHtml.js"></script>
     <link rel="stylesheet" href="css/fairsoft-stylesheet.css">
     <link rel="stylesheet" href="css/webfont1/stylesheet.css">
     <script>
@@ -24,19 +24,13 @@
 </head>
 <body>
     <div class="container-fluid">
-        <!--Start Header-->
-        <div class="row" id="header">
-        </div>
-        <!--End header-->
-        <!--Start content-->
-        <main class="row">
 
-        </main>
-        <!--End content-->
-        <!--Start footer-->
-        <div class="row" id="footer">
-        </div>
-        <!--End footer-->
+        <div class="row" id="header"></div>
+        <script>loadHeader()</script>
+        <main class="row" id="main"></main>
+        <script>defaultContent()</script>
+        <div class="row" id="footer"></div>
+        <script>loadFooter()</script>
     </div>
 </body>
 </html>
