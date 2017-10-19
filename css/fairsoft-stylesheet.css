@@ -152,6 +152,7 @@ main{
 #footer{
 	border-top: 1px solid #F6A017;
 	padding: 1px 0;
+	color: white;
 }
 
 #footer > footer{
@@ -159,4 +160,5 @@ main{
 	border: 1px solid #080808;
 	border-radius: 4px;
 	min-height: 50px;
+	margin-bottom: 30px;
 }
