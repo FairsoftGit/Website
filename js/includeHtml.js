@@ -32,7 +32,18 @@ $(document).ready(function(){
 		
 		//Add pagename to titel
 		document.title = '';
-		document.title = 'Fairsoft - ' + $(this).text(); 
+		document.title = 'Fairsoft - ' + $(this).text();
+		
+		// Remove all selected classes
+		$('.selected').removeClass();
+		
+		//Add class to selected link
+		$(this).parent('li').addClass('selected');
+		
+		//Add class to parent item is selected item is a submenu item
+		if($(this).parents('li.dropdown').length){
+			$(this).parents('li.dropdown').addClass('selected');
+		}
 	});
 
 });

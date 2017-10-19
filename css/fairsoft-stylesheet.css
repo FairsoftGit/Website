@@ -138,8 +138,14 @@ main{
 	padding: 20px;
 }
 
-#contentImg{
+/** OPMAAK AFBEELDING IN PAGINA **/
+.content-img-container{
+	text-align: center;
+}
+
+.content-img{
 	width:100%;
+	max-width:600px;
 }
 
 /** OPMAAK FOOTER **/
