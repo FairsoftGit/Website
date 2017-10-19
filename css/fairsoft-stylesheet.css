@@ -125,10 +125,6 @@ header > img#logo {
 	}
 }
 
-
-
-
-
 /** OPMAAK MAIN GEDEELTE **/
 main{
 	background-color: #E3DCD2;
@@ -136,6 +132,14 @@ main{
 	border-radius: 4px;
 	min-height: 100px;
 	padding: 20px;
+}
+
+#fairRentTable a {
+    text-decoration: none;
+}
+
+#appStoreBadge {
+    vertical-align: middle;
 }
 
 /** OPMAAK AFBEELDING IN PAGINA **/
@@ -148,7 +152,22 @@ main{
 	max-width:600px;
 }
 
+.page-header {
+    border-bottom: 1px solid #F6A017;
+}
+
 /** OPMAAK FOOTER **/
+#footer h4 {
+    margin: auto;
+    margin-top: 10px;
+    width: 40%;
+}
+#footer ul {
+    margin: auto;
+    width: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 #footer{
 	border-top: 1px solid #F6A017;
 	padding: 1px 0;
@@ -160,5 +179,5 @@ main{
 	border: 1px solid #080808;
 	border-radius: 4px;
 	min-height: 50px;
-	margin-bottom: 30px;
+	/*margin-bottom: 30px; Waarom?*/
 }
