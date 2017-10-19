@@ -138,14 +138,21 @@ main{
 	padding: 20px;
 }
 
-#contentImg{
+/** OPMAAK AFBEELDING IN PAGINA **/
+.content-img-container{
+	text-align: center;
+}
+
+.content-img{
 	width:100%;
+	max-width:600px;
 }
 
 /** OPMAAK FOOTER **/
 #footer{
 	border-top: 1px solid #F6A017;
 	padding: 1px 0;
+	color: white;
 }
 
 #footer > footer{
@@ -153,4 +160,5 @@ main{
 	border: 1px solid #080808;
 	border-radius: 4px;
 	min-height: 50px;
+	margin-bottom: 30px;
 }
