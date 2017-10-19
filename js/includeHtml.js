@@ -23,7 +23,7 @@ function setPage(pageName) {
 $(document).ready(function(){
 	// Function to load desired html file when clicked link
 	// !!IMPORTANT!! ID of menu item MUST be the same name as linked html file!!
-	$('.navbar-nav a').click(function(){
+	$('.navbar-nav a').not('.dropdown-toggle').click(function(){
 		var linkId = $(this).attr('id');
 		var fileName = linkId + '.html';
 		var path = "pages/content/"
