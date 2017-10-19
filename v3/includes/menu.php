@@ -18,7 +18,7 @@
                 <li<?php if ($thisPage=='howItWorks') echo ' class="selected"'; ?>>
                 	<a href="howItWorks.php">Hoe het werkt</a>
                 </li>
-                <li class="dropdown<?php if ($parent=='producten') echo ' selected'; ?>">
+                <li class="dropdown<?php if ($thisPage=='fairVest' || $thisPage=='fairBox' || $thisPage=='fairGoggles' || $thisPage=='fairApp') echo ' selected'; ?>">
                     <a class="dropdown-toggle" data-toggle="dropdown" href="#">Onze producten
                     	<span class="caret"></span>
                     </a>
@@ -37,7 +37,7 @@
                         </li>
                     </ul>
                 </li>
-                <li class="dropdown<?php if ($parent=='diensten') echo ' selected'; ?>">
+                <li class="dropdown<?php if ($thisPage=='fairData' || $thisPage=='fairRent' || $thisPage=='fairPayPlan') echo ' selected'; ?>">
                     <a class="dropdown-toggle" data-toggle="dropdown" href="#">Onze diensten<span class="caret"></span></a>
                     <ul class="dropdown-menu">
                         <li<?php if ($thisPage=='fairData') echo ' class="selected"'; ?>>

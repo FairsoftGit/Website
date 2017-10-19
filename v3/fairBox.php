@@ -1,6 +1,5 @@
 <?php
 	$thisPage="fairBox";
-	$parent="producten";
 	include ('includes/header.php');
 ?>
 	</div>

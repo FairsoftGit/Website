@@ -1,6 +1,5 @@
 <?php
 	$thisPage="fairPlan";
-	$parent="diensten";
 	include ('includes/header.php');
 ?>
 	</div>

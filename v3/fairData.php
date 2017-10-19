@@ -1,6 +1,5 @@
 <?php
 	$thisPage="fairData";
-	$parent="diensten";
 	include ('includes/header.php');
 ?>
 	</div>

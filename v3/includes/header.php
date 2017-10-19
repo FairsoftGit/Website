@@ -17,7 +17,7 @@
     <div class="container-fluid">
         <div class="row" id="header">
             <header class="hidden-xs">
-                <img src="img/logo-white.png" alt="Logo van Fairsoft" id="logo">
+                <img src="img/logo-white.png" alt="Logos van Fairsoft" id="logo">
             </header>
             <!-- BEGIN OF MENU -->
             <?php

@@ -1,6 +1,5 @@
 <?php
 	$thisPage="fairGoggles";
-	$parent="producten";
 	include ('includes/header.php');
 ?>
 	</div>

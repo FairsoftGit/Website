@@ -1,6 +1,5 @@
 <?php
 	$thisPage="fairVest";
-	$parent="producten";
 	include ('includes/header.php');
 ?>
 	</div>

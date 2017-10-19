@@ -1,6 +1,5 @@
 <?php
 	$thisPage="fairApp";
-	$parent="producten";
 	include ('includes/header.php');
 ?>
 	</div>

@@ -1,6 +1,5 @@
 <?php
 	$thisPage="fairRent";
-	$parent="diensten";
 	include ('includes/header.php');
 ?>
 	</div>
@@ -44,7 +43,7 @@
     	<p>Bij gehuurde materialen wordt onbeperkt data verbruik geleverd. De gehuurde materialen worden op gewenste datum en tijdstip op locatie geleverd en opgehaald.</p>
     </article>
     <div class="content-img-container col-xs-12 col-sm-6 col-md-6 col-lg-6">
-    	<img class="content-img" src="img/fairRent-pic.png" alt="De FairApp">
+    	<img class="content-img" src="img/fairRent-pic.png" alt="Verhuur">
     </div>
 </div>
 		
