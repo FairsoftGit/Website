@@ -29,6 +29,7 @@
 			<li><a href="contact.php">Contact</a></li>
 			<li><a href="faq.php">Veelgestelde vragen</a></li>
 			<li><a href="sitemap.php">Sitemap</a></li>
+			<li><a href="algemeneVoorwaarden.php">Algemene voorwaarden</a></li>
 			<li>Klantenservice
 				<ul>
 					<li><a href="orderAndDelivery.php">Bestellen en leveren</a></li>

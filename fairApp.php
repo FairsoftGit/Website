@@ -11,7 +11,7 @@
 		<div class="page-header">
 			<h1>fairApp</h1>
 		</div>
-    	<p>De FairApp is digitale plek waar je toegang hebt tot al je instellingen en data. Je kunt hier contact maken met je FairBox, data of livestreams downloaden, de FairGoggle koppelen, en nog veel meer.</p>
+    	<p>De FairApp is de digitale plek waar je toegang hebt tot al je instellingen en data. Je kunt hier contact maken met je FairBox, data of livestreams downloaden, de FairGoggle koppelen, en nog veel meer.</p>
     	<p>De scheidsrechter is via de FairApp in staat de deelnemers van een battle te zien op een kaart en wordt op de hoogte gesteld van hits.</p>
     	<p>De FairApp is via je browser te benaderen, maar ook als app te downloaden via Google Play (Android) en Apple Store (Apple).</p>
     </article>
