@@ -149,7 +149,8 @@ main{
 
 .content-img{
 	width:100%;
-	max-width:600px;
+	max-width:500px;
+	margin-top: 40px;
 }
 
 .page-header {
@@ -180,4 +181,22 @@ main{
 	border-radius: 4px;
 	min-height: 50px;
 	/*margin-bottom: 30px; Waarom?*/
+}
+
+footer ul {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+footer h4{
+	color: #F6a017
+}
+
+footer a{
+	color: white;
+	text-decoration: none;
+}
+footer a:hover{
+	color: #F6A017;
+	text-decoration: none;
 }

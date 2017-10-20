@@ -2,18 +2,17 @@
     <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
         <h4>Fairsoft</h4>
         <ul>
-            <li>Veelgestelde vragen</li>
-            <li>Contact</li>
-            <li>Algemene voorwaarden</li>
-            <li>Sitemap</li>
+            <li><a href="faq.php">Veelgestelde vragen</a></li>
+			<li><a href="contact.php">Contact</a></li>
+			<li><a href="sitemap.php">Sitemap</a></li>
         </ul>
     </div>
     <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
         <h4>Klantenservice</h4>
         <ul>
-            <li>Bestellen en leveren</li>
-            <li>Betaling</li>
-            <li>Verhuur</li>
+			<li><a href="orderAndDelivery.php">Bestellen en leveren</a></li>
+			<li><a href="payments.php">Betaling</a></li>
+            <li><a href="fairRent.php">Verhuur</a></li>
         </ul>
     </div>
     <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
@@ -28,10 +27,10 @@
     <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
         <h4>Social Media</h4>
         <ul>
-            <li>Facebook</li>
-            <li>Twitter</li>
-            <li>Google plus</li>
-            <li>Pinterest</li>
+            <li><img src="img/fb.png" alt="Facebook"></li>
+            <li><img src="img/twitter.png" alt="Twitter"></li>
+            <li><img src="img/pin.png" alt="Pinterest"></li>
+            <li><img src="img/yt.png" alt="Youtube"></li>
         </ul>
     </div>
 </footer>
