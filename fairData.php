@@ -38,7 +38,7 @@
     	<p>Let op! De FairGoggles zijn alleen te gebruiken als je een FairBigData abonnement hebt.</p>
     </article>
     <div class="content-img-container col-xs-12 col-sm-6 col-md-6 col-lg-6">
-    	<img class="content-img" src="img/fairData-pic.jpg" alt="FairData">
+    	<img class="content-img" src="img/fairData-pic.png" alt="FairData">
     </div>
 </div>
 		

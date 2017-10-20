@@ -36,7 +36,7 @@
     	</form>
     </div>
     <div class="content-img-container col-xs-12 col-sm-6 col-md-6 col-lg-6">
-    	<img class="content-img" src="img/contact-pic.jpg" alt="Contactpagina">
+    	<img class="content-img" src="img/contact-pic.png" alt="Contactpagina">
     </div>
 </div>
 		

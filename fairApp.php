@@ -16,8 +16,7 @@
     	<p>De FairApp is via je browser te benaderen, maar ook als app te downloaden via Google Play (Android) en Apple Store (Apple).</p>
     </article>
     <div class="content-img-container col-xs-12 col-sm-6 col-md-6 col-lg-6">
-    	<img id="playStoreBadge" src="img/googlePlay.png" alt="Google Play link" width="200"/>
-		<object id="appStoreBadge"type="image/svg+xml" data="img/appleStore.svg" width="180"></object>
+    	<img class="content-img" src="img/fairApp-pic.png" alt="De FairApp">
     </div>
 </div>
 		

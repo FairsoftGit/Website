@@ -14,7 +14,7 @@
     	<p>Mocht er een probleem zijn met je bij ons aangeschafte uitrusting, neem dan contact met ons op. Mocht het probleem niet direct opgelost kunnen worden, dan garanderen wij dezelfde dag een vervangend product. </p>
     </article>
     <div class="content-img-container col-xs-12 col-sm-6 col-md-6 col-lg-6">
-    	<img class="content-img" src="img/techSupport-pic.jpeg" alt="Technische ondersteuning">
+    	<img class="content-img" src="img/techSupport-pic.png" alt="Technische ondersteuning">
     </div>
 </div>
 		

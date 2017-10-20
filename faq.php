@@ -71,7 +71,7 @@
     		</table>
     	</article>
     		<div class="content-img-container col-xs-12 col-sm-6 col-md-6 col-lg-6">
-    			<img class="content-img" src="" alt="Veelgestelde vragen">
+    			<img class="content-img" src="img/faq-pic.png" alt="Veelgestelde vragen">
     		</div>
 	</div>
 		
