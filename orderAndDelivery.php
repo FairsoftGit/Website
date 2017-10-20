@@ -16,7 +16,7 @@
     		<p>Het kan natuurlijk eens een keer voorkomen dat een artikel hier niet op voorraad is. In dat geval is de levertijd variabel en nemen we contact met je op om je hierover te informeren. Ook in dit geval doen we natuurlijk ons uiterste best om je bestelling zo snel mogelijk te leveren.</p>
     	</article>
     		<div class="content-img-container col-xs-12 col-sm-6 col-md-6 col-lg-6">
-    			<img class="content-img" src="" alt="Bestellen en leveren">
+    			<img class="content-img" src="img/orderAndDelivery-pic.png" alt="Bestellen en leveren">
     		</div>
 	</div>
 		

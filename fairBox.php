@@ -11,7 +11,7 @@
 		<div class="page-header">
 			<h1>FairBox</h1>
 		</div>
-    	<p>De FairBox verzorgt de de communicatie tussen je vest en de FairCloud. De FairBox is vergelijkbaar met een MiFi-device, maar is speciaal ontworpen voor het FairVest.</p>
+    	<p>De FairBox verzorgt de communicatie tussen je vest en de FairCloud. De FairBox is vergelijkbaar met een MiFi-device, maar is speciaal ontworpen voor het FairVest.</p>
     	<p>Door middel van RFID zal een speler zich in kunnen checken bij een wedstrijd.</p>
     	<p>De FairBox blijft minimaal 8 uur non-stop operationeel. Bij gebruik van de FairGoggles is dit minimaal 4 uur.</p>
     	<p>Om de FairBox te kunnen gebruiken, heb je een FairData abonnement nodig.</p>

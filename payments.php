@@ -32,7 +32,7 @@ Bancontact / Mister Cash<br>iDEAL<br>PayPal<br>VISA via PayPal<br>MasterCard via
    			</p>
     	</article>
     		<div class="content-img-container col-xs-12 col-sm-6 col-md-6 col-lg-6">
-    			<img class="content-img" src="" alt="Betalingsmogelijkheden">
+    			<img class="content-img" src="img/payment-pic.png" alt="Betalingsmogelijkheden">
     		</div>
 	</div>
 		
