@@ -7,7 +7,7 @@
 				<span class="icon-bar"></span>
 			</button>
             <a class="navbar-brand" href="#">
-				<img id="navBarImg" src="../../pages/img/logo-white.png" alt="Fairsoft">
+				<img id="navBarImg" src="img/logo-white.png" alt="Fairsoft">
 			</a>
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
