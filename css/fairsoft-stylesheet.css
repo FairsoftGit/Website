@@ -157,6 +157,20 @@ main{
     border-bottom: 1px solid #F6A017;
 }
 
+/** OPMAAK sitemap pagina **/
+#sitemap ul{
+	list-style-type: none;
+	/*padding-left: 0px;*/
+}
+
+#sitemap a{
+	color: rgb(51, 51, 51);
+	text-decoration: none;
+}
+#sitemap a:hover{
+	color: #F6A017;
+}
+
 /** OPMAAK FOOTER **/
 
 #footer ul {

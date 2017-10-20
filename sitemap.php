@@ -8,32 +8,32 @@
 		
 	<div id="sitemap">
 		<ul>
-			<li>Over ons</li>
-			<li>Hoe het werkt</li>
+			<li><a href="index.php">Over ons</a></li>
+			<li><a href="howItWorks.php">Hoe het werkt</a></li>
 			<li>Onze producten
 				<ul>
-					<li>FairVest</li>
-					<li>FairBox</li>
-					<li>FairGoggles</li>
-					<li>FairApp</li>
+					<li><a href="fairVest.php">FairVest</a></li>
+					<li><a href="fairBox.php">FairBox</a></li>
+					<li><a href="fairGoggles.php">FairGoggles</a></li>
+					<li><a href="fairApp.php">FairApp</a></li>
 				</ul>
 			</li>
 			<li>Onze diensten
 				<ul>
-					<li>FairData</li>
-					<li>FairRent</li>
-					<li>FairPayPlan</li>
+					<li><a href="fairData.php">FairData</a></li>
+					<li><a href="fairRent.php">FairRent</a></li>
+					<li><a href="fairPayplan.php">FairPayPlan</a></li>
 				</ul>
 			</li>
-			<li>Technische ondersteuning</li>
-			<li>Contact</li>
-			<li>Veelgestelde vragen</li>
-			<li>Sitemap</li>
+			<li><a href="techSupport.php">Technische ondersteuning</a></li>
+			<li><a href="contact.php">Contact</a></li>
+			<li><a href="faq.php">Veelgestelde vragen</a></li>
+			<li><a href="sitemap.php">Sitemap</a></li>
 			<li>Klantenservice
 				<ul>
-					<li>Bestellen en leveren</li>
-					<li>Betaling</li>
-					<li>Verhuur</li>
+					<li><a href="orderAndDelivery.php">Bestellen en leveren</a></li>
+					<li><a href="payments">Betaling</a></li>
+					<li><a href="fairRent.php">Verhuur</a></li>
 				</ul>
 			</li>
 		</ul>
