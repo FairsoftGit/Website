@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="nl">
 <head>
     <meta charset="utf-8">
@@ -7,19 +7,18 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="js/includeHtml.js"></script>
     <link rel="stylesheet" href="css/fairsoft-stylesheet.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <title>Fairsoft</title>
 </head>
 <body>
     <div class="container-fluid">
-
-        <div class="row" id="header"></div>
-        <script>loadHeader()</script>
-        <main class="row" id="main"></main>
-        <script>defaultContent()</script>
-        <div class="row" id="footer"></div>
-        <script>loadFooter()</script>
-    </div>
-</body>
-</html>
+        <div class="row" id="header">
+            <header class="hidden-xs">
+                <img src="img/logo-white.png" alt="Logos van Fairsoft" id="logo">
+            </header>
+            <!-- BEGIN OF MENU -->
+            <?php
+			 include ('menu.php');
+			?>
+            <!-- END OF MENU -->

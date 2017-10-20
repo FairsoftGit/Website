@@ -125,10 +125,6 @@ header > img#logo {
 	}
 }
 
-
-
-
-
 /** OPMAAK MAIN GEDEELTE **/
 main{
 	background-color: #E3DCD2;
@@ -138,6 +134,14 @@ main{
 	padding: 20px;
 }
 
+#fairRentTable a {
+    text-decoration: none;
+}
+
+#appStoreBadge {
+    vertical-align: middle;
+}
+
 /** OPMAAK AFBEELDING IN PAGINA **/
 .content-img-container{
 	text-align: center;
@@ -145,20 +149,72 @@ main{
 
 .content-img{
 	width:100%;
-	max-width:600px;
+	max-width:500px;
+	margin-top: 40px;
+}
+
+.page-header {
+    border-bottom: 1px solid #F6A017;
+}
+
+/** OPMAAK sitemap pagina **/
+#sitemap ul{
+	list-style-type: none;
+	/*padding-left: 0px;*/
+}
+
+#sitemap a{
+	color: rgb(51, 51, 51);
+	text-decoration: none;
+}
+#sitemap a:hover{
+	color: #F6A017;
 }
 
 /** OPMAAK FOOTER **/
+
+#footer ul {
+    width: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+	list-style-type: none;
+	padding-left: 0;
+}
 #footer{
 	border-top: 1px solid #F6A017;
-	padding: 1px 0;
 	color: white;
 }
 
-#footer > footer{
+footer{
 	background-color: #222222;
 	border: 1px solid #080808;
 	border-radius: 4px;
 	min-height: 50px;
-	margin-bottom: 30px;
+	padding: 15px;
+	
+}
+
+footer p{
+	color: #F6a017;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+footer a{
+	color: white;
+	text-decoration: none;
+}
+
+footer a:hover{
+	color: #F6A017;
+	text-decoration: none;
+}
+
+#footerCol4 li{
+	display: inline-block;
+}
+
+#footerCol4 img{
+	width: 75px;
+	margin-bottom:5px;
 }

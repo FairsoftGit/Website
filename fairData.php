@@ -1,5 +1,15 @@
-﻿<div id="fairData">
+<?php
+	$thisPage="fairData";
+	include ('includes/header.php');
+?>
+	</div>
+	<main class="row" id="main">
+	<!-- vanaf hier bewerken -->
+	<div id="fairData">
     <article class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+		<div class="page-header">
+			<h1>FairData</h1>
+		</div>
     	<p>Om het FairVest en de FairGoggles te kunnen gebruiken, heb je een data-verbinding nodig.<br>De FairBox wordt geleverd met ingebouwde SIM-kaart. Je kunt de keuze maken uit twee verschillende abonnementen:</p>
     	<table id="fairDataTable" class="table-striped table-responsive">
     		<thead>
@@ -31,3 +41,12 @@
     	<img class="content-img" src="img/fairData-pic.png" alt="FairData">
     </div>
 </div>
+		
+	<!-- Tot hier bewerken -->
+
+	</main>
+	<div class="row" id="footer">
+		
+<?php
+		include ('includes/footer.php');
+?>
