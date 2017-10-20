@@ -1,3 +1,7 @@
+
+<!-- Check siteplan 2017 for more info about de php parts in this file -->
+
+
 <nav class="navbar navbar-inverse">
     <div class="container-fluid">
         <div class="navbar-header">
