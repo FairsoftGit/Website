@@ -174,12 +174,39 @@ main{
 	color: #F6A017;
 }
 
+/** OPMAAK faq pagina **/
+
+/*  Define width of table*/
+#faq table{
+	width: 100%;	
+}
+
+/*Align all text in table to top*/
+#faq table tr td{
+	vertical-align: top;
+}
+/* Make all Q's and A's bold and orange*/
+#faq table tr td:first-child{
+	width: 5%;
+	font-weight: bold;
+	color: #F6A017;
+}
+/* Make all Q's bold */
+#faq table tr:nth-child(odd){
+	font-weight: bold;
+}
+/*Create space between every Q&A*/
+#faq table tr:nth-child(even) td{
+	padding-bottom: 20px;
+}
+
+
 /** OPMAAK FOOTER **/
 
 #footer ul {
-    width: 50%;
-    margin-top: 10px;
-    margin-bottom: 10px;
+ 	width: 50%;
+ 	margin-top: 10px;
+	margin-bottom: 10px;
 	list-style-type: none;
 	padding-left: 0;
 }
